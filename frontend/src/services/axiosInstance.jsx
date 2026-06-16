@@ -9,9 +9,9 @@ export const api = axios.create({
 })
 
 export const backendapi = axios.create({
-    baseURL:"http://localhost:5000"
+    baseURL:"https://e-commerce-q89k.onrender.com"
 })
     
 export const addtocartapi = axios.create({
-    baseURL:"http://localhost:5000"
+    baseURL:"https://e-commerce-q89k.onrender.com"
 })
