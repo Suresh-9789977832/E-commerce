@@ -2,14 +2,13 @@ import Login from "./features/auth/Login"
 import {Routes,Route, Navigate, useNavigate} from 'react-router-dom'
 import Register from "./features/auth/Regiser"
 import Home from "./pages/Home"
-import cart from "./pages/cart"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect, useState } from "react";
 import { jwtDecode } from "jwt-decode";
 import { useDispatch } from "react-redux";
 import { get_profilethunk } from "./features/auth/authThunk";
-import Cart from "./pages/cart"
+import Cart from "./pages/Cart"
 
 
 function App() {
